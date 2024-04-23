@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+ <body>
+    <header class="header">
+      <a href="#" class="logo">Vaishu.</a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" >About</a>
+        <a href="#skills" >Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact" >Contact</a>
+
+        <span class="active-nav"></span>
+      </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Vaishnavi Koli</h1>
+            <h3>Web Developer</h3>
+            <p> My portfolio is a representation of all that
+             I've learned and accoumplished as a science and engineering student. 
+             Also I am a Web Developer.
+            </p>
+            <div class="btn-box">
+              <a href="#">Hire Me</a>
+             <a href="#">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!-- about section design-->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="about-img">
+        <img src="assets/home0.jpeg" alt="">
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h3>Web Developer</h3>
+        <p>I enjoy taking complex problems and turning them into simple 
+          and beautiful interface designs.I also love the logic
+          and structure of coding and always strive to write elegant
+          and efficient code,whether it be HTML,CSS,JQuery,JS ,Expressjs.</p>
+      </div>
+
+      <div class="btn-box btns">
+        <a href="#"class ="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Skills section design-->
+    <section class="skills" id="skills">
+      <h2 class="heading">My<span>Skills</span></h2>
+
+      <div class="skills-row">
+        <div class="skills-column">
+          <h3 class="title">Coding Skills</h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>HTML<span>90%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>CSS<span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>JavaScript<span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>ReactJs<span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>ExpressJs<span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>MongoDB<span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="skills-column">
+          <h3 class="title">Professional Skills</h3>
+  
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>Web Design<span>95%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3>Web Development<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+  
+            </div>
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <!--Portfolio section-->
+    <section id="portfolio">
+      <h2 class="heading"><span>Portfolio</span></h2>
+      <div class="project-container" >
+        <div class="project-card" >
+          <img src="assets/project2.png" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>The popularity of music streaming services has been on the rise in recent years, with Spotify being one of the most popular platforms. Spotify allows users to access a vast library of music from different genres and artists. In this tutorial, we will guide you through the process of creating a Spotify clone project using HTML and CSS. </p>
+          <a href="https://github.com/vaishnavikoli885/WanderLust" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="assets/project1.png" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Wanderlust is an Airbnb like platform to match up tour guides and tourists through a full-stack web application powered by a React, Redux Frontend, a Java Spring Boot Backend .</p>
+          <a href="https://github.com/vaishnavikoli885/soptiy" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact section design-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required>
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required>
+            <span class="focus"></span>
+          </div>
+
+        </div>
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Number" required>
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Subject" required>
+            <span class="focus"></span>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="textarea-field">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn btn-primary">Submit</button>    
+        </div>
+        
+        
+      </form>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Codehal | All Rights Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
